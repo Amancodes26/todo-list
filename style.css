@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    PADDING:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg ,rgb(22, 185, 217),rgb(146, 42, 146) );
+}
+
+.content{
+    background-color: white;
+    min-height: 400px;
+    width: 540px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+input[type = "text"]{
+    font-size: medium;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+ul{
+    /* margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex; */
+    list-style: none;
+}
+li{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn{
+    background-color: #dc3445;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    padding: 5px 10px;
+    margin-inline-start: auto;
+}
+
+
